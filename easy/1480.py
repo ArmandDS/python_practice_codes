@@ -9,7 +9,7 @@ Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].
 class Solution:
     def runningSum(self, nums: List[int]) -> List[int]:
   
-        #iterate form 1 to len of array and add the previous elem in array , order n
+        #iterate from 1 to the len of array and add the previous elem in array, (order n)
         for i in range(1, len(nums)):
             nums[i] += nums[i-1]
             
