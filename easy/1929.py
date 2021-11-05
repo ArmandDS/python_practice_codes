@@ -9,7 +9,7 @@ Explanation: The array ans is formed as follows:
 """
 
 class Solution:
-    def getConcatenation(self, nums: list[int]) -> list[int]:
+    def getConcatenation(self, nums: List[int]) -> List[int]:
         #Just extends the original array
         nums.extend(nums)
         return nums
